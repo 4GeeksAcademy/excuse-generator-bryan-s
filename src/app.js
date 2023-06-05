@@ -11,7 +11,7 @@ const whatTheyDid = ["ate", "peed", "crushed", "broke"];
 console.log(whoToBlame[Math.random() * whoToBlame.length]);
 
 function generateExcuse(whoToBlame) {
-    return "My random sentence";
+  return "My random sentence";
 }
 
 const pTagHtmlElement = document.querySelector("#excuse");
@@ -19,4 +19,4 @@ const pTagHtmlElement = document.querySelector("#excuse");
 pTagHtmlElement.innerHTML = generateExcuse();
 
 // Change the excuse in the HTML
-document.getElementById('excuse').innerText = generateExcuse();
+document.getElementById("excuse").innerText = generateExcuse();
